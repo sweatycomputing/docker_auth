@@ -22,7 +22,7 @@ import (
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/util"
-	"github.com/cesanta/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
 )
 
 func requestToString(ai api.AuthRequestInfo) string {
