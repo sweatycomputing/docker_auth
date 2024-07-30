@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/casbin/casbin/v2"
-	"github.com/cesanta/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
 )
 
 type CasbinAuthzConfig struct {

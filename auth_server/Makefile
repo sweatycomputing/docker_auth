@@ -1,5 +1,5 @@
 MAKEFLAGS += --warn-undefined-variables
-IMAGE ?= cesanta/docker_auth
+IMAGE ?= sweatycomputing/docker_auth
 VERSION ?= $(shell go run ./gen_version.go | awk '{print $$1}')
 BUILD_ID ?= $(shell go run ./gen_version.go | awk '{print $$2}')
 

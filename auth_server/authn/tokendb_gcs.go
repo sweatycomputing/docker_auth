@@ -28,7 +28,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/api/option"
 
-	"github.com/cesanta/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
 )
 
 type GCSStoreConfig struct {

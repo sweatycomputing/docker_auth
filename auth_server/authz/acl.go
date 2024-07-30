@@ -13,7 +13,7 @@ import (
 	"github.com/cesanta/glog"
 	"github.com/schwarmco/go-cartesian-product"
 
-	"github.com/cesanta/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
 )
 
 type ACL []ACLEntry

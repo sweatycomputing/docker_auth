@@ -29,8 +29,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/cesanta/docker_auth/auth_server/api"
-	"github.com/cesanta/docker_auth/auth_server/mgo_session"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/mgo_session"
 )
 
 type MongoAuthConfig struct {

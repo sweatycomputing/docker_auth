@@ -29,8 +29,8 @@ import (
 	"github.com/docker/libtrust"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/cesanta/docker_auth/auth_server/authn"
-	"github.com/cesanta/docker_auth/auth_server/authz"
+	"github.com/sweatycomputing/docker_auth/auth_server/authn"
+	"github.com/sweatycomputing/docker_auth/auth_server/authz"
 )
 
 type Config struct {

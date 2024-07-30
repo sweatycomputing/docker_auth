@@ -19,7 +19,7 @@ package authn
 import (
 	"fmt"
 
-	"github.com/cesanta/docker_auth/auth_server/api"
+	"github.com/sweatycomputing/docker_auth/auth_server/api"
 	"golang.org/x/crypto/bcrypt"
 
 	_ "github.com/go-sql-driver/mysql"
